@@ -18,14 +18,14 @@ num_desastres = int(input("Insira a quantidade de desastres: "))
 for i in range(num_desastres):
     print(f" Desastre {i + 1} ")
 
-    tipos_desastres.append(input("Tipo do desastre: "))
+    tipos_desastres.append(input("Tipo de desastre: "))
     paises.append(input("País: "))
     cidades.append(input("Cidade: "))
     bairros.append(input("Bairro: "))
     ruas.append(input("Rua: "))
 
     while True:
-        total = int(input("Total de pessoas que foram afetadas: "))
+        total = int(input("Total de pessoas afetadas: "))
 
         crianca = int(input("Número de crianças: "))
         adulto = int(input("Número de adultos: "))
