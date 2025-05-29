@@ -61,3 +61,13 @@ categoria_mais_afetada = nomes_categorias[indice_mais_afetado]
 mais_grave = total_afetados.index(max(total_afetados))
 local_mais_afetado = f"{ruas[mais_grave]}, {bairros[mais_grave]}, {cidades[mais_grave]}, {paises[mais_grave]}"
 tipo_mais_grave = tipos_desastres[mais_grave]
+
+print(" Relatório")
+print(f"Numero total de desastres registrados: {total_desastre}")
+print("Resumo de pessoas que foram afetadas por categoria:")
+print(f"Crianças: {soma_crianca} | Adultos: {soma_adulto} | Idosos: {soma_idoso} | Mobilidade reduzida: {soma_mobilidade} | Feridos: {soma_ferido}")
+print(f"Categoria mais afetada: {categoria_mais_afetada}")
+print(f"Total de pessoas que foram afetadas: {total_afetados_geral}")
+print("Desastre com maior número de pessoas afetadas:")
+print(f"Tipo: {tipo_mais_grave}")
+print(f"Local: {local_mais_afetado}")
